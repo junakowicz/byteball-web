@@ -184,6 +184,55 @@
 			}}, function() {
 			});
 
+//localize
+
+i18next
+  .use(i18nextXHRBackend)
+  .use(i18nextBrowserLanguageDetector)
+  .init({
+    fallbackLng: 'en',
+    debug: true,
+    ns: ['common'],
+    // ns: ['special', 'common'],
+    defaultNS: 'common',
+    backend: {
+      // load from i18next-gitbook repo
+      loadPath: './locales/{{lng}}/{{ns}}.json',
+      crossDomain: true
+    }
+  }, function(err, t) {
+    // init set content
+    updateContent();
+  });
+
+
+// just set some content and react to language changes
+// could be optimized using vue-i18next, jquery-i18next, react-i18next, ...
+function updateContent() {
+	//intro page
+  document.getElementById('slogan').innerHTML = i18next.t('intro.slogan');
+  document.getElementById('get-byteball').innerHTML = i18next.t('intro.get-byteball');
+  document.getElementById('a-whitepaper').innerHTML = i18next.t('intro.a-whitepaper');
+  document.getElementById('next-dist').innerHTML = i18next.t('intro.next-dist');
+
+//   document.getElementById('saveBtn').innerHTML = i18next.t('common:button.save', { count: Math.floor(Math.random()*2+1)  });
+  
+//   document.getElementById('info').innerHTML = `detected user language: "${i18next.language}"  --> loaded languages: "${i18next.languages.join(', ')}"`;
+
+console.log(`detected user language: "${i18next.language}"  --> loaded languages: "${i18next.languages.join(', ')}"`)
+}
+
+function changeLng(lng) {
+	console.log('VVlng'+ lng)
+  i18next.changeLanguage(lng);
+}
+
+i18next.on('languageChanged', () => {
+  updateContent();
+});
+
+
+
 	}); // End document ready
 })(this.jQuery);
 

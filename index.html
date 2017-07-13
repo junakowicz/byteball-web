@@ -103,12 +103,19 @@
 											<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a></li>
 											<li><a href="https://medium.com/@Byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a></li>
 											<li><a href="http://slack.byteball.org" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
-											<li><a href="./cn/index.html">繁體中文</a></li>
+											<li><div onclick="i18next.changeLanguage('en')">EN</div></li>
+											<li><div onclick="i18next.changeLanguage('cn')">CN</div></li>
 											
 										</ul>
 									</div>
 
 								</div>
+								  <button onclick="i18next.changeLanguage('en')">
+ EN
+  </button>
+  <button onclick="i18next.changeLanguage('cn')">
+CN
+  </button>
 							</nav>
 							<!-- navbar end -->
 
@@ -140,15 +147,15 @@
 					<div class="space"></div>
 					<div class="space"></div>
 					<div class="row text-center">
-						<h2>Smart payments made simple</h2>
+						<h2 id='slogan'>_Smart payments made simple</h2>
 
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">Get Byteball wallet</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Read the whitepaper</a></p>
+						<p><a id='get-byteball' class="btn btn-lg btn-success" href="#download" role="button">_Get Byteball wallet</a></p>
+						<p><a id='a-whitepaper' href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Read the whitepaper</a></p>
 					</div>
 					<div class="space"></div>
 					<div class="row">
 						<a href="#dist">
-							<p class="lead text-center">Next distribution: <span id="distDate">DATE</span></p>
+							<p id='next-dist' class="lead text-center">Next distribution: </p><div style="display: inline-block;"><p id="distDate">DATE</p></div>
 							<div class="clock row">
 								<div class="col-xs-3 col-sm-3 col-md-3">
 									<div class="countdown-time-value clock-item clock-days">
@@ -792,6 +799,9 @@
 
 	<script src="js/kinetic.js"></script>
 	<script src="js/jquery.final-countdown.min.js"></script>
+	<script src="https://unpkg.com/i18next/i18next.js"></script>
+<script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
+<script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
 </body>
 
 </html>
