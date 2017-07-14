@@ -1,15 +1,33 @@
 {
- "intro":{
- 
-        "slogan": "Smart payments made simple",
-        "get-byteball": "Get Byteball wallet",
-        "a-whitepaper": " Read the whitepaper",
-        "next-dist": "Next distribution:"
- },
-      "s1":{
- "cond":"conditional payments.",
-"p": "Byteball allows you to do something that traditional currencies can't: <a href='https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a' target='_blank'>$t(s1.cond)</a "
-
- },
-  "hours": "ho-ho"  
+  "intro": {
+    "slogan": "Smart payments made simple",
+    "get-byteball": "Get Byteball wallet",
+    "a-whitepaper": " Read the whitepaper",
+    "next-dist": "Next distribution: Full Moon, "
+  },
+  "head1": "Why use Byteball?",
+  "s1": {
+    "a-conditional": "<a href='https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a' target='_blank'>conditional payments.</a>",
+    "title": "Risk-free conditional smart payments",
+    "sub-title": "Byteball allows you to do something that traditional currencies can't: $t(s1.a-conditional)",
+    "p": "You set a condition when the payee receives the money. If the condition is not met, you get your money back."
+  },
+  "s2": {
+    "title": "P2P payments in chat",
+    "sub-title": "Chat and pay in the same app."
+  },
+  "s3": {
+    "title": "Prediction markets",
+    "sub-title": "Make money by correctly predicting future events.",
+    "p1": "Create a P2P smart contract that can be unlocked if a specific event occurs. Use it for <a href='https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab' target='_blank'>betting on price movements</a>, sports betting, and insurance.",
+    "p2": "Find your counterpart in <a href='https://byteball.slack.com/messages/C4UMVU4QZ/' target='_blank'>#prediction_markets</a> channel on our <a href='http://slack.byteball.org' target='_blank' title='Slack'>Slack.</a>"
+  },
+  "s4": {
+    "title": "P2P insurance",
+    "sub-title": "Hedge against negative events.",
+    "p1": "Buy insurance from peers to get paid in case a negative event occurs. Sell insurance for profit.",
+    "p2": "Insurance is just <a href='https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527' target='_blank'>a simple smart contract</a> that can be unlocked by the insured &mdash; if the event in question did occur, or by the insurer &mdash; otherwise.",
+    "p3": "To insure against flight delay, find your counterpart in <a href='https://byteball.slack.com/messages/C54CDJATB/' target='_blank'>#p2p_insurance</a> channel on our <a href='http://slack.byteball.org' target='_blank' title='Slack'>Slack</a>, create a contract, and if your flight arrives late, <a href='byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000'>chat with flight delays oracle</a> to have it post the data about the delay, then unlock the contract."
+  },
+  "hours": "ho-ho"
 }

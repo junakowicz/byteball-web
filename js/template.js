@@ -160,7 +160,7 @@
 
 			}
 		}
-		$( "#distDate" ).html('Full Moon, ' + upcoming.sDate)
+		$( "#distDate" ).html(' ' + upcoming.sDate)
 		var circleBorderFactor = 0.5
 		$('.countdown').final_countdown({
 			start : last.epoch, //Here use Milisecond. To convert your time you can go to this(https://currentmillis.com/) website. 
@@ -214,11 +214,26 @@ function updateContent() {
   document.getElementById('get-byteball').innerHTML = i18next.t('intro.get-byteball');
   document.getElementById('a-whitepaper').innerHTML = i18next.t('intro.a-whitepaper');
   document.getElementById('next-dist').innerHTML = i18next.t('intro.next-dist');
-  document.getElementById('s1-p').innerHTML = i18next.t('s1.p');
-//  $(".type-time").i18next();
-//   document.getElementById('saveBtn').innerHTML = i18next.t('common:button.save', { count: Math.floor(Math.random()*2+1)  });
   
-//   document.getElementById('info').innerHTML = `detected user language: "${i18next.language}"  --> loaded languages: "${i18next.languages.join(', ')}"`;
+  document.getElementById('head1').innerHTML = i18next.t('head1');
+  document.getElementById('s1-title').innerHTML = i18next.t('s1.title');
+  document.getElementById('s1-sub-title').innerHTML = i18next.t('s1.sub-title');
+  document.getElementById('s1-p').innerHTML = i18next.t('s1.p');
+
+  document.getElementById('s2-title').innerHTML = i18next.t('s2.title');
+  document.getElementById('s2-sub-title').innerHTML = i18next.t('s2.sub-title');
+
+  document.getElementById('s3-title').innerHTML = i18next.t('s3.title');
+  document.getElementById('s3-sub-title').innerHTML = i18next.t('s3.sub-title');
+  document.getElementById('s3-p1').innerHTML = i18next.t('s3.p1');
+  document.getElementById('s3-p2').innerHTML = i18next.t('s3.p2');
+
+  document.getElementById('s4-title').innerHTML = i18next.t('s4.title');
+  document.getElementById('s4-sub-title').innerHTML = i18next.t('s4.sub-title');
+  document.getElementById('s4-p1').innerHTML = i18next.t('s4.p1');
+  document.getElementById('s4-p2').innerHTML = i18next.t('s4.p2');
+  document.getElementById('s4-p3').innerHTML = i18next.t('s4.p3');
+ 
 
 console.log(`detected user language: "${i18next.language}"  --> loaded languages: "${i18next.languages.join(', ')}"`)
 }
