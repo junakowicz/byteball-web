@@ -5,5 +5,11 @@
         "get-byteball": "Get Byteball wallet",
         "a-whitepaper": " Read the whitepaper",
         "next-dist": "Next distribution:"
- }
+ },
+      "s1":{
+ "cond":"conditional payments.",
+"p": "Byteball allows you to do something that traditional currencies can't: <a href='https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a' target='_blank'>$t(s1.cond)</a "
+
+ },
+  "hours": "ho-ho"  
 }

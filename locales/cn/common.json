@@ -5,5 +5,12 @@
         "get-byteball": "CCGet Byteball wallet",
         "a-whitepaper": "CCRead the whitepaper",
         "next-dist": "CCNext distribution:"
- }
+ },
+ "s1":{
+ 
+    "p": "ccccByteball allows you to do something that traditional currencies can't: "
+
+ },
+  "hours": "ho-ho"
+
 }

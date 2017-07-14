@@ -214,7 +214,8 @@ function updateContent() {
   document.getElementById('get-byteball').innerHTML = i18next.t('intro.get-byteball');
   document.getElementById('a-whitepaper').innerHTML = i18next.t('intro.a-whitepaper');
   document.getElementById('next-dist').innerHTML = i18next.t('intro.next-dist');
-
+  document.getElementById('s1-p').innerHTML = i18next.t('s1.p');
+//  $(".type-time").i18next();
 //   document.getElementById('saveBtn').innerHTML = i18next.t('common:button.save', { count: Math.floor(Math.random()*2+1)  });
   
 //   document.getElementById('info').innerHTML = `detected user language: "${i18next.language}"  --> loaded languages: "${i18next.languages.join(', ')}"`;
