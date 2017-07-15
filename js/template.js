@@ -255,7 +255,32 @@ function updateContent() {
   document.getElementById('s9-title').innerHTML = i18next.t('s9.title');
   document.getElementById('s9-sub-title').innerHTML = i18next.t('s9.sub-title');
   document.getElementById('s9-p1').innerHTML = i18next.t('s9.p1');
+ 	//Core
+  document.getElementById('head2').innerHTML = i18next.t('head2');
+
+  document.getElementById('c1-title').innerHTML = i18next.t('c1.title');
+  document.getElementById('c1-p').innerHTML = i18next.t('c1.p');
+
+  document.getElementById('c2-title').innerHTML = i18next.t('c2.title');
+  document.getElementById('c2-p').innerHTML = i18next.t('c2.p');
  
+  document.getElementById('c3-title').innerHTML = i18next.t('c3.title');
+  document.getElementById('c3-p').innerHTML = i18next.t('c3.p');
+
+  document.getElementById('c4-title').innerHTML = i18next.t('c4.title');
+  document.getElementById('c4-p').innerHTML = i18next.t('c4.p');
+
+  document.getElementById('c5-title').innerHTML = i18next.t('c5.title');
+  document.getElementById('c5-p').innerHTML = i18next.t('c5.p');
+
+  document.getElementById('c6-title').innerHTML = i18next.t('c6.title');
+  document.getElementById('c6-p').innerHTML = i18next.t('c6.p');
+
+  document.getElementById('download').innerHTML = i18next.t('download');
+  document.getElementById('download-li1').innerHTML = i18next.t('download-li1');
+  document.getElementById('download-li2').innerHTML = i18next.t('download-li2');
+  document.getElementById('download-li3').innerHTML = i18next.t('download-li3');
+  document.getElementById('download-li4').innerHTML = i18next.t('download-li4');
 
 console.log(`detected user language: "${i18next.language}"  --> loaded languages: "${i18next.languages.join(', ')}"`)
 }
