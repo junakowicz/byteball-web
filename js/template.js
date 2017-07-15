@@ -233,6 +233,28 @@ function updateContent() {
   document.getElementById('s4-p1').innerHTML = i18next.t('s4.p1');
   document.getElementById('s4-p2').innerHTML = i18next.t('s4.p2');
   document.getElementById('s4-p3').innerHTML = i18next.t('s4.p3');
+
+  document.getElementById('s5-title').innerHTML = i18next.t('s5.title');
+  document.getElementById('s5-sub-title').innerHTML = i18next.t('s5.sub-title');
+  document.getElementById('s5-p1').innerHTML = i18next.t('s5.p1');
+  document.getElementById('s5-p2').innerHTML = i18next.t('s5.p2');
+
+  document.getElementById('s6-title').innerHTML = i18next.t('s6.title');
+  document.getElementById('s6-sub-title').innerHTML = i18next.t('s6.sub-title');
+  document.getElementById('s6-p1').innerHTML = i18next.t('s6.p1');
+ 
+  document.getElementById('s7-title').innerHTML = i18next.t('s7.title');
+  document.getElementById('s7-sub-title').innerHTML = i18next.t('s7.sub-title');
+  document.getElementById('s7-p1').innerHTML = i18next.t('s7.p1');
+
+  document.getElementById('s8-title').innerHTML = i18next.t('s8.title');
+  document.getElementById('s8-sub-title').innerHTML = i18next.t('s8.sub-title');
+  document.getElementById('s8-p1').innerHTML = i18next.t('s8.p1');
+  document.getElementById('s8-p2').innerHTML = i18next.t('s8.p2');
+
+  document.getElementById('s9-title').innerHTML = i18next.t('s9.title');
+  document.getElementById('s9-sub-title').innerHTML = i18next.t('s9.sub-title');
+  document.getElementById('s9-p1').innerHTML = i18next.t('s9.p1');
  
 
 console.log(`detected user language: "${i18next.language}"  --> loaded languages: "${i18next.languages.join(', ')}"`)

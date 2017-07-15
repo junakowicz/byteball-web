@@ -29,5 +29,32 @@
     "p2": "Insurance is just <a href='https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527' target='_blank'>a simple smart contract</a> that can be unlocked by the insured &mdash; if the event in question did occur, or by the insurer &mdash; otherwise.",
     "p3": "To insure against flight delay, find your counterpart in <a href='https://byteball.slack.com/messages/C54CDJATB/' target='_blank'>#p2p_insurance</a> channel on our <a href='http://slack.byteball.org' target='_blank' title='Slack'>Slack</a>, create a contract, and if your flight arrives late, <a href='byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000'>chat with flight delays oracle</a> to have it post the data about the delay, then unlock the contract."
   },
+  "s5": {
+    "title": "P2P betting",
+    "sub-title": "Bet against other users on sports events.",
+    "p1": "Find your counterpart in <a href='https://byteball.slack.com/messages/C4UMVU4QZ/' target='_blank'>#prediction_markets</a> channel on our <a href='http://slack.byteball.org' target='_blank' title='Slack'>Slack</a> and create a contract that can be unlocked by you or your peer depending on the results of a future game.",
+    "p2": "After the result is known, <a href='byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000'>chat with sports oracle</a> to have it post the data about the outcome, then unlock the contract."
+  },
+  "s6": {
+    "title": "Chatbots",
+    "sub-title": "Talk to a bot like you would talk to a human.",
+    "p1": "Shop by chatting with a merchant's bot, pay in two clicks. Exchanges and other services are also easy to use in conversational interface."
+  },
+  "s7": {
+    "title": "Bot store",
+    "sub-title": "Easily discover and add new chatbots via the built-in Bot store.",
+    "p1": "Developers have instant access to all users by publishing their chatbot in the Bot store. See the <a href='https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball' target='_blank'>developer guide about building chatbots.</a>"
+  },
+  "s8": {
+    "title": "Untraceable currency: Blackbytes",
+    "sub-title": "Cash-like privacy.",
+    "p1": "When you want complete privacy, pay in Blackbytes, a cash-like untraceable currency whose transactions are not visible on the public database, they are sent peer-to-peer instead.",
+    "p2": "Use built in TOR switch straight from the wallet to increase you privacy even further."
+  },
+  "s9": {
+    "title": "Users help each other",
+    "sub-title": "Secure each other's transactions.",
+    "p1": "There is no central entity that stores and processes all the payments.  Instead, transactions created by users are cryptographically linked to each other, and once you add your new transaction, other users start adding theirs on top of yours, and the number of other transactions that link to your transaction grows like snowball (that's why we call it Byteball)."
+  },
   "hours": "ho-ho"
 }
