@@ -282,6 +282,26 @@ function updateContent() {
   document.getElementById('download-li3').innerHTML = i18next.t('download-li3');
   document.getElementById('download-li4').innerHTML = i18next.t('download-li4');
 
+  document.getElementById('fair-head').innerHTML = i18next.t('fair-head');
+  document.getElementById('fair-title').innerHTML = i18next.t('fair-title');
+  document.getElementById('fair-ps').innerHTML = i18next.t('fair-ps');
+
+  document.getElementById('tech1-title').innerHTML = i18next.t('tech1.title');
+  document.getElementById('tech1-sub-title').innerHTML = i18next.t('tech1.sub-title');
+  document.getElementById('tech1-p1').innerHTML = i18next.t('tech1.p1');
+  document.getElementById('tech1-p2').innerHTML = i18next.t('tech1.p2');
+
+  document.getElementById('tech2-title').innerHTML = i18next.t('tech2.title');
+  document.getElementById('tech2-p1').innerHTML = i18next.t('tech2.p1');
+
+  document.getElementById('tech3-title').innerHTML = i18next.t('tech3.title');
+  document.getElementById('tech3-p1').innerHTML = i18next.t('tech3.p1');
+
+  document.getElementById('tech4-title').innerHTML = i18next.t('tech4.title');
+  document.getElementById('tech4-p1').innerHTML = i18next.t('tech4.p1');
+  document.getElementById('tech4-p2').innerHTML = i18next.t('tech4.p2');
+
+
 console.log(`detected user language: "${i18next.language}"  --> loaded languages: "${i18next.languages.join(', ')}"`)
 }
 
