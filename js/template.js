@@ -215,7 +215,7 @@ function updateContent() {
   document.getElementById('a-whitepaper').innerHTML = i18next.t('intro.a-whitepaper');
   document.getElementById('next-dist').innerHTML = i18next.t('intro.next-dist');
   
-  document.getElementById('head1').innerHTML = i18next.t('head1');
+  document.getElementById('head1').innerHTML = i18next.t('heads.head1');
   document.getElementById('s1-title').innerHTML = i18next.t('s1.title');
   document.getElementById('s1-sub-title').innerHTML = i18next.t('s1.sub-title');
   document.getElementById('s1-p').innerHTML = i18next.t('s1.p');
@@ -256,7 +256,7 @@ function updateContent() {
   document.getElementById('s9-sub-title').innerHTML = i18next.t('s9.sub-title');
   document.getElementById('s9-p1').innerHTML = i18next.t('s9.p1');
  	//Core
-  document.getElementById('head2').innerHTML = i18next.t('head2');
+  document.getElementById('head2').innerHTML = i18next.t('heads.head2');
 
   document.getElementById('c1-title').innerHTML = i18next.t('c1.title');
   document.getElementById('c1-p').innerHTML = i18next.t('c1.p');
@@ -276,15 +276,15 @@ function updateContent() {
   document.getElementById('c6-title').innerHTML = i18next.t('c6.title');
   document.getElementById('c6-p').innerHTML = i18next.t('c6.p');
 
-  document.getElementById('download').innerHTML = i18next.t('download');
-  document.getElementById('download-li1').innerHTML = i18next.t('download-li1');
-  document.getElementById('download-li2').innerHTML = i18next.t('download-li2');
-  document.getElementById('download-li3').innerHTML = i18next.t('download-li3');
-  document.getElementById('download-li4').innerHTML = i18next.t('download-li4');
+  document.getElementById('download').innerHTML = i18next.t('download.header');
+  document.getElementById('download-li1').innerHTML = i18next.t('download.li1');
+  document.getElementById('download-li2').innerHTML = i18next.t('download.li2');
+  document.getElementById('download-li3').innerHTML = i18next.t('download.li3');
+  document.getElementById('download-li4').innerHTML = i18next.t('download.li4');
 
-  document.getElementById('fair-head').innerHTML = i18next.t('fair-head');
-  document.getElementById('fair-title').innerHTML = i18next.t('fair-title');
-  document.getElementById('fair-ps').innerHTML = i18next.t('fair-ps');
+  document.getElementById('dist-head').innerHTML = i18next.t('dist.head');
+  document.getElementById('dist-title').innerHTML = i18next.t('dist.title');
+  document.getElementById('dist-ps').innerHTML = i18next.t('dist.ps');
 
   document.getElementById('tech1-title').innerHTML = i18next.t('tech1.title');
   document.getElementById('tech1-sub-title').innerHTML = i18next.t('tech1.sub-title');

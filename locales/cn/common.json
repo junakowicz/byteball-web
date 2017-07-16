@@ -1,16 +1,143 @@
 {
- "intro":{
- 
-        "slogan": "CCSmart payments made simple",
-        "get-byteball": "CCGet Byteball wallet",
-        "a-whitepaper": "CCRead the whitepaper",
-        "next-dist": "CCNext distribution:"
- },
- "s1":{
- 
-    "p": "ccccByteball allows you to do something that traditional currencies can't: "
-
- },
-  "hours": "ho-ho"
-
+  "c1" : {
+    "p" : "When two parties sign a single unit that executes both legs of the exchange, the two transactions either happen simultaneously or don't happen at all. It is no longer necessary to trust any centralized exchanges.",
+    "root" : "init",
+    "title" : "Atomic exchange"
+  },
+  "c2" : {
+    "p" : "Regulated institutions can issue assets that are compatible with KYC/AML requirements. Every transfer of such asset is to be cosigned by the issuer, and if there is anything that contradicts the regulations, the issuer won't cosign.",
+    "root" : "init",
+    "title" : "Regulated assets"
+  },
+  "c3" : {
+    "p" : "For security, you can require that your funds be spendable only when several signatures are provided, e.g. from your laptop and from your phone. For shared control of funds, signatures from different people may be required.",
+    "root" : "init",
+    "title" : "Multi signature"
+  },
+  "c4" : {
+    "p" : "When dealing with untrusted counterparties, you can lock the funds on an address that is spendable either by you or by the counterparty, depending on the events registered to the database by trusted data providers — oracles.",
+    "root" : "init",
+    "title" : "On-chain oracles"
+  },
+  "c5" : {
+    "p" : "Once stored in the Byteball database, the data can neither be revised nor removed.",
+    "root" : "init",
+    "title" : "Immutable storage"
+  },
+  "c6" : {
+    "p" : "After certain criteria are met, a new transaction becomes final. It cannot be revised even by a powerful attacker.  No guesswork about the right number of confirmations, no 51% attacks.",
+    "root" : "init",
+    "title" : "Settlement finality"
+  },
+  "dist" : {
+    "head" : "Fair initial distribution",
+    "ps" : "<p>Mass adoption requires wide distribution, that's why 98% of all bytes and blackbytes are to be distributed for free.  The distribution is split into multiple rounds and in each round holders of BTC and Bytes are rewarded.  The amounts you receive are proportional to your proven balances in BTC and Bytes on the next distribution date:</p> <ul><li>For every 16 BTC you receive 1 GB (1 gigabyte = 1 billion bytes),</li><li>For every 5 GB you receive additional 1 GB.</li></ul><p>To prove your balances, install the wallet and chat with the Transition Bot (you find it in the Bot Store in the wallet).  The bot will help you link your Bitcoin and Byteball addresses by making a micropayment or signing a message.</p><p>You also receive blackbytes in proportion to your linked BTC balance and your balance in Bytes on the linked Byteball address.</p><p>The first distribution round took place on Dec 25, 2016 when the network launched, over 70,000 BTC was linked, and 10% of the total supply of bytes and blackbytes was distributed.  In the subsequent rounds, the total distributed supply reached 36.6%:</p><ul><li>2nd round on Feb 11, 2017: 121,763 BTC linked, 1.8% distributed;</li><li>3rd round on Mar 12, 2017: 129,139 BTC linked, 2.0% distributed;</li><li>4th round on Apr 11, 2017: 145,441 BTC linked, 2.3% distributed;</li><li>5th round on May 10, 2017: 207,672 BTC linked, 2.9% distributed;</li><li>6th round on Jun 9, 2017: 453,621 BTC linked, 6.6% distributed;</li><li>7th round on Jul 9, 2017: 949,004 BTC linked, 11.0% distributed.</li></ul><p>The 8th round is scheduled for the full moon of August (<b>Aug 7, 2017 at 18:10 UTC</b>).  The balances will be snapshotted at the time of the first Bitcoin block after this date, and rules for this round are as indicated above.  We will likely have more rounds until we distribute all 98%, the rules in the future rounds will change in favor of current holders of bytes.</p><p><a href='byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000'>Chat with the Transition Bot</a> to link your Bitcoin and Byteball addresses and participate, track linking progress at <a href=''http://transition.byteball.org/' target='_blank'>transition.byteball.org</a>.</p>",
+    "root" : "init",
+    "title" : "Free distribution to BTC and Byte holders."
+  },
+  "download" : {
+    "header" : "Get your Byteball wallet",
+    "li1" : "After installing, <a href='byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000'>chat with the Transition Bot</a> to participate in the next distribution round",
+    "li2" : "<a href='byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000'>Buy or sell bytes</a> by chatting with a trading bot",
+    "li3" : "<a href='https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5' target='_blank'>P2P exchange bytes vs bitcoins</a>, get your merkle proof by chatting with <a href='byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000'>BTC Oracle</a><br>",
+    "li4" : "View public transactions on the <a href='https://explorer.byteball.org' target='_blank'>DAG explorer</a>",
+    "root" : "init"
+  },
+  "heads" : {
+    "head1" : "Why use Byteball?",
+    "head2" : "Core features",
+    "root" : "init"
+  },
+  "intro" : {
+    "a-whitepaper" : "阅读白皮书",
+    "get-byteball" : "获取Byteball钱包",
+    "next-dist" : "下一个发行：满月，",
+    "root" : "init",
+    "slogan" : "聪明的付款变得简单"
+  },
+  "root" : {
+    "root" : "init"
+  },
+  "s1" : {
+    "a-conditional" : "<a href='https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a' target='_blank'>conditional payments.</a>",
+    "p" : "You set a condition when the payee receives the money. If the condition is not met, you get your money back.",
+    "root" : "init",
+    "sub-title" : "Byteball allows you to do something that traditional currencies can't: $t(s1.a-conditional)",
+    "title" : "Risk-free conditional smart payments"
+  },
+  "s2" : {
+    "root" : "init",
+    "sub-title" : "Chat and pay in the same app.",
+    "title" : "P2P payments in chat"
+  },
+  "s3" : {
+    "p1" : "Create a P2P smart contract that can be unlocked if a specific event occurs. Use it for <a href='https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab' target='_blank'>betting on price movements</a>, sports betting, and insurance.",
+    "p2" : "Find your counterpart in <a href='https://byteball.slack.com/messages/C4UMVU4QZ/' target='_blank'>#prediction_markets</a> channel on our <a href='http://slack.byteball.org' target='_blank' title='Slack'>Slack.</a>",
+    "root" : "init",
+    "sub-title" : "Make money by correctly predicting future events.",
+    "title" : "Prediction markets"
+  },
+  "s4" : {
+    "p1" : "Buy insurance from peers to get paid in case a negative event occurs. Sell insurance for profit.",
+    "p2" : "Insurance is just <a href='https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527' target='_blank'>a simple smart contract</a> that can be unlocked by the insured — if the event in question did occur, or by the insurer — otherwise.",
+    "p3" : "To insure against flight delay, find your counterpart in <a href='https://byteball.slack.com/messages/C54CDJATB/' target='_blank'>#p2p_insurance</a> channel on our <a href='http://slack.byteball.org' target='_blank' title='Slack'>Slack</a>, create a contract, and if your flight arrives late, <a href='byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000'>chat with flight delays oracle</a> to have it post the data about the delay, then unlock the contract.",
+    "root" : "init",
+    "sub-title" : "Hedge against negative events.",
+    "title" : "P2P insurance"
+  },
+  "s5" : {
+    "p1" : "Find your counterpart in <a href='https://byteball.slack.com/messages/C4UMVU4QZ/' target='_blank'>#prediction_markets</a> channel on our <a href='http://slack.byteball.org' target='_blank' title='Slack'>Slack</a> and create a contract that can be unlocked by you or your peer depending on the results of a future game.",
+    "p2" : "After the result is known, <a href='byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000'>chat with sports oracle</a> to have it post the data about the outcome, then unlock the contract.",
+    "root" : "init",
+    "sub-title" : "Bet against other users on sports events.",
+    "title" : "P2P betting"
+  },
+  "s6" : {
+    "p1" : "Shop by chatting with a merchant's bot, pay in two clicks. Exchanges and other services are also easy to use in conversational interface.",
+    "root" : "init",
+    "sub-title" : "Talk to a bot like you would talk to a human.",
+    "title" : "Chatbots"
+  },
+  "s7" : {
+    "p1" : "Developers have instant access to all users by publishing their chatbot in the Bot store. See the <a href='https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball' target='_blank'>developer guide about building chatbots.</a>",
+    "root" : "init",
+    "sub-title" : "Easily discover and add new chatbots via the built-in Bot store.",
+    "title" : "Bot store"
+  },
+  "s8" : {
+    "p1" : "When you want complete privacy, pay in Blackbytes, a cash-like untraceable currency whose transactions are not visible on the public database, they are sent peer-to-peer instead.",
+    "p2" : "Use built in TOR switch straight from the wallet to increase you privacy even further.",
+    "root" : "init",
+    "sub-title" : "Cash-like privacy.",
+    "title" : "Untraceable currency: Blackbytes"
+  },
+  "s9" : {
+    "p1" : "There is no central entity that stores and processes all the payments.  Instead, transactions created by users are cryptographically linked to each other, and once you add your new transaction, other users start adding theirs on top of yours, and the number of other transactions that link to your transaction grows like snowball (that's why we call it Byteball).",
+    "root" : "init",
+    "sub-title" : "Secure each other's transactions.",
+    "title" : "Users help each other"
+  },
+  "tech1" : {
+    "p1" : "Byteball data is stored and ordered using <a href='https://en.wikipedia.org/wiki/Directed_acyclic_graph' target='_blank'>directed acyclic graph</a> (DAG) rather than blockchain. This allows all users to secure each other's data by referencing earlier data units created by other users, and also removes scalability limits common for blockchains, such as blocksize issue.",
+    "p2" : "The consensus algorithm used to protect from double-spends is based on establishing a total order within the DAG. This is achieved by selecting a chain, called main chain, which gravitates towards units issued by commonly recognized reputable users — witnesses. See the <a href='Byteball.pdf'>white paper</a> for details.",
+    "root" : "init",
+    "sub-title" : "Unbounded scalability, fast confirmations, no mining, no blocks, low fees.",
+    "title" : "Completely new technology"
+  },
+  "tech2" : {
+    "p1" : "<a href='testnet.html'>Testnet wallet</a> is also available if you are a developer or want to experience the features of Byteball without spending a penny.",
+    "root" : "init",
+    "title" : "Testnet"
+  },
+  "tech3" : {
+    "p1" : "Join Byteball on Slack! There are many channels with lively discussions about future developments, trading, auctions, to name just a few. If you have any issues with the Byteball wallet, our competent support staff will take care of it at the #helpdesk channel. Please get your invite at <a href='http://slack.byteball.org' target='_blank' title='Slack'>slack.byteball.org</a>.",
+    "root" : "init",
+    "title" : "Community and Support"
+  },
+  "tech4" : {
+    "p1" : "You can buy or sell bytes without leaving the wallet by <a href='byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000'>chatting with a trading bot</a>. You can also trade on <a href='https://bittrex.com/Market/Index?MarketName=BTC-GBYTE' target='_blank'>Bittrex</a>, <a href='https://cryptox.pl' target='_blank'>Cryptox</a>, <a href='https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC' target='_blank'>Cryptopia</a>, <a href='https://changelly.com/exchange/btc/gbyte' target='_blank'>Changelly</a>, and <a href='https://bitsquare.io' target='_blank'>Bitsquare</a> exchanges.",
+    "p2" : "To buy or sell blackbytes, see or post orders in <a href='https://byteball.slack.com/messages/C3KFYK5H7/' target='_blank'>#trading_blackbyte</a> channel on our <a href='http://slack.byteball.org' target='_blank' title='Slack'>Slack</a>, then exchange peer-to-peer using <a href='https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a' target='_blank'>bound (conditional) payments.</a>",
+    "root" : "init",
+    "title" : "Exchanges"
+  }
 }
