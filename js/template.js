@@ -286,10 +286,11 @@ function updateContent() {
   document.getElementById('dist-title').innerHTML = i18next.t('dist.title');
   document.getElementById('dist-ps').innerHTML = i18next.t('dist.ps');
 
-  document.getElementById('tech1-title').innerHTML = i18next.t('tech1.title');
+  document.getElementById('head3').innerHTML = i18next.t('heads.head3');
   document.getElementById('tech1-sub-title').innerHTML = i18next.t('tech1.sub-title');
   document.getElementById('tech1-p1').innerHTML = i18next.t('tech1.p1');
   document.getElementById('tech1-p2').innerHTML = i18next.t('tech1.p2');
+  document.getElementById('tech1-p3').innerHTML = i18next.t('tech1.p3');
 
   document.getElementById('tech2-title').innerHTML = i18next.t('tech2.title');
   document.getElementById('tech2-p1').innerHTML = i18next.t('tech2.p1');

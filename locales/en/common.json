@@ -7,7 +7,8 @@
     },
     "heads": {
         "head1": "Why use Byteball?",
-        "head2": "Core features"
+        "head2": "Core features",
+        "head3": "Completely new technology"
     },
     "s1": {
         "a-conditional": "<a href='https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a' target='_blank'>conditional payments.</a>",
@@ -96,10 +97,10 @@
         "ps": "<p>Mass adoption requires wide distribution, that's why 98% of all bytes and blackbytes are to be distributed for free.  The distribution is split into multiple rounds and in each round holders of BTC and Bytes are rewarded.  The amounts you receive are proportional to your proven balances in BTC and Bytes on the next distribution date:</p> <ul><li>For every 16 BTC you receive 1 GB (1 gigabyte = 1 billion bytes),</li><li>For every 5 GB you receive additional 1 GB.</li></ul><p>To prove your balances, install the wallet and chat with the Transition Bot (you find it in the Bot Store in the wallet).  The bot will help you link your Bitcoin and Byteball addresses by making a micropayment or signing a message.</p><p>You also receive blackbytes in proportion to your linked BTC balance and your balance in Bytes on the linked Byteball address.</p><p>The first distribution round took place on Dec 25, 2016 when the network launched, over 70,000 BTC was linked, and 10% of the total supply of bytes and blackbytes was distributed.  In the subsequent rounds, the total distributed supply reached 36.6%:</p><ul><li>2nd round on Feb 11, 2017: 121,763 BTC linked, 1.8% distributed;</li><li>3rd round on Mar 12, 2017: 129,139 BTC linked, 2.0% distributed;</li><li>4th round on Apr 11, 2017: 145,441 BTC linked, 2.3% distributed;</li><li>5th round on May 10, 2017: 207,672 BTC linked, 2.9% distributed;</li><li>6th round on Jun 9, 2017: 453,621 BTC linked, 6.6% distributed;</li><li>7th round on Jul 9, 2017: 949,004 BTC linked, 11.0% distributed.</li></ul><p>The 8th round is scheduled for the full moon of August (<b>Aug 7, 2017 at 18:10 UTC</b>).  The balances will be snapshotted at the time of the first Bitcoin block after this date, and rules for this round are as indicated above.  We will likely have more rounds until we distribute all 98%, the rules in the future rounds will change in favor of current holders of bytes.</p><p><a href='byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000'>Chat with the Transition Bot</a> to link your Bitcoin and Byteball addresses and participate, track linking progress at <a href=''http://transition.byteball.org/' target='_blank'>transition.byteball.org</a>.</p>"
     },
     "tech1": {
-        "title": "Completely new technology",
         "sub-title": "Unbounded scalability, fast confirmations, no mining, no blocks, low fees.",
         "p1": "Byteball data is stored and ordered using <a href='https://en.wikipedia.org/wiki/Directed_acyclic_graph' target='_blank'>directed acyclic graph</a> (DAG) rather than blockchain. This allows all users to secure each other's data by referencing earlier data units created by other users, and also removes scalability limits common for blockchains, such as blocksize issue.",
-        "p2": "The consensus algorithm used to protect from double-spends is based on establishing a total order within the DAG. This is achieved by selecting a chain, called main chain, which gravitates towards units issued by commonly recognized reputable users &mdash; witnesses. See the <a href='Byteball.pdf'>white paper</a> for details."
+        "p2": "Blockless design is simpler because there are no blocks, there are only transactions.  Users just add their transactions to the end of the DAG themselves, they don't have to wait when miners create a new block and there is no guesswork whether miners will include your transaction in the block.",
+        "p3": "The consensus algorithm used to protect from double-spends is based on establishing a total order within the DAG. This is achieved by selecting a chain, called main chain, which gravitates towards units issued by commonly recognized reputable users &mdash; witnesses. See the <a href='Byteball.pdf'>white paper</a> for details."
     },
     "tech2": {
         "title": "Testnet",
