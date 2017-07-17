@@ -210,6 +210,18 @@ i18next
 // could be optimized using vue-i18next, jquery-i18next, react-i18next, ...
 function updateContent() {
 	//intro page
+  document.getElementById('nav-1').innerHTML = i18next.t('nav.n1');
+  document.getElementById('nav-2').innerHTML = i18next.t('nav.n2');
+  document.getElementById('nav-3').innerHTML = i18next.t('nav.n3');
+  document.getElementById('nav-4').innerHTML = i18next.t('nav.n4');
+  document.getElementById('nav-5').innerHTML = i18next.t('nav.n5');
+
+  document.getElementById('days').innerHTML = i18next.t('clock.days');
+  document.getElementById('hours').innerHTML = i18next.t('clock.hours');
+  document.getElementById('minutes').innerHTML = i18next.t('clock.minutes');
+  document.getElementById('seconds').innerHTML = i18next.t('clock.seconds');
+ 
+
   document.getElementById('slogan').innerHTML = i18next.t('intro.slogan');
   document.getElementById('get-byteball').innerHTML = i18next.t('intro.get-byteball');
   document.getElementById('a-whitepaper').innerHTML = i18next.t('intro.a-whitepaper');
@@ -286,7 +298,7 @@ function updateContent() {
   document.getElementById('dist-title').innerHTML = i18next.t('dist.title');
   document.getElementById('dist-ps').innerHTML = i18next.t('dist.ps');
 
-  document.getElementById('head3').innerHTML = i18next.t('heads.head3');
+  document.getElementById('tech').innerHTML = i18next.t('heads.head3');
   document.getElementById('tech1-sub-title').innerHTML = i18next.t('tech1.sub-title');
   document.getElementById('tech1-p1').innerHTML = i18next.t('tech1.p1');
   document.getElementById('tech1-p2').innerHTML = i18next.t('tech1.p2');

@@ -93,15 +93,16 @@
 									<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 										<ul class="nav navbar-nav navbar-right">
 
-											<li><a href="#why">Why</a></li>
-											<li><a href="#core">Features</a></li>
-											<li><a href="#download">Wallet</a></li>
-											<li><a href="#dist">Distribution</a></li>
+											<li><a id='nav-1' href="#why">Why</a></li>
+											<li><a id='nav-2' href="#core">Features</a></li>
+											<li><a id='nav-3' href="#download">Wallet</a></li>
+											<li><a id='nav-4' href="#dist">Distribution</a></li>
+											<li><a id='nav-5' href="#tech">Technology</a></li>
 											<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
-											<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 											<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 											<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a></li>
-											<li><a href="https://medium.com/@Byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a></li>
+											<li><a href="https://medium.com/byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a></li>
 											<li><a href="http://slack.byteball.org" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
 										</ul>
 									</div>
@@ -143,7 +144,7 @@
 						<h2 id='slogan'>_Smart payments made simple</h2>
 
 						<p><a id='get-byteball' class="btn btn-lg btn-success" href="#download" role="button">_Get Byteball wallet</a></p>
-						<p><a id='a-whitepaper' href="Byteball.pdf"><i class="fa fa-file-text-o"></i> _Read the whitepaper</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i><span id='a-whitepaper'> _Read the whitepaper</spa>></a></p>
 					</div>
 					<div class="space"></div>
 					<div class="row">
@@ -157,7 +158,7 @@
 												<div id="canvas-days" class="clock-canvas"></div>
 												<div class="text">
 													<p class="val">0</p>
-													<p class="type-days type-time">DAYS</p>
+													<p id="days" class="type-days type-time">DAYS</p>
 												</div>
 												<!-- /.text -->
 											</div>
@@ -176,7 +177,7 @@
 
 												<div class="text">
 													<p class="val">0</p>
-													<p class="type-hours type-time" data-i18n="hours">HOURS</p>
+													<p id="hours" class="type-hours type-time">HOURS</p>
 												</div>
 												<!-- /.text -->
 											</div>
@@ -195,7 +196,7 @@
 
 												<div class="text">
 													<p class="val">0</p>
-													<p class="type-minutes type-time">MINUTES</p>
+													<p id="minutes" class="type-minutes type-time">MINUTES</p>
 												</div>
 												<!-- /.text -->
 											</div>
@@ -214,7 +215,7 @@
 
 												<div class="text">
 													<p class="val">0</p>
-													<p class="type-seconds type-time">SECONDS</p>
+													<p id="seconds" class="type-seconds type-time">SECONDS</p>
 												</div>
 												<!-- /.text -->
 											</div>
@@ -669,10 +670,10 @@
 	<!-- section start -->
 	<!-- ================ -->
 	<div class="default-bg">
-		<div id="tech" class="container">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 id='head3' class="text-center">_Completely new technology</h2>
+					<h2  id="tech" class="text-center">_Completely new technology</h2>
 				</div>
 			</div>
 		</div>

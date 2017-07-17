@@ -5,6 +5,19 @@
         "a-whitepaper": " Read the whitepaper",
         "next-dist": "Next distribution: Full Moon, "
     },
+    "nav": {
+        "n1": "Why",
+        "n2": "Features",
+        "n3": "Wallet",
+        "n4": "Distribution",
+        "n5": "Technology"
+    },
+    "clock": {
+        "days": "DAYS",
+        "hours": "HOURS",
+        "minutes": "MINUTES",
+        "seconds": "SECONDS"
+    },
     "heads": {
         "head1": "Why use Byteball?",
         "head2": "Core features",
